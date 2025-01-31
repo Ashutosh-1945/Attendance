@@ -1,0 +1,324 @@
+/* Style for the main container */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Main container for the form */
+.register-container {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Heading style */
+.register-title {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Input fields */
+.register-input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.register-input:focus {
+  border-color: #6a4ef8;
+}
+
+/* Button styling */
+.register-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #6a4ef8;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #5b3ce6;
+}
+
+/* Message text */
+.register-message {
+  color: #e63946;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style for the main container */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container styling */
+.login-container {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Title styling */
+.login-title {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Input fields */
+.login-input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.login-input:focus {
+  border-color: #6a4ef8;
+}
+
+/* Button styling */
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #6a4ef8;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #5b3ce6;
+}
+
+/* Message text */
+.login-message {
+  color: #e63946;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Header Styling */
+.home-header {
+  text-align: center;
+}
+
+.home-title {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.welcome-message {
+  color: #4caf50;
+  font-size: 1.2rem;
+}
+
+.error-message {
+  color: #e63946;
+  font-size: 1rem;
+}
+
+/* Subjects Section Styling */
+.subjects-section {
+  width: 100%;
+  max-width: 800px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.subjects-title {
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.add-subject-button {
+  padding: 12px 20px;
+  background-color: #6a4ef8;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  transition: background-color 0.3s ease;
+}
+
+.add-subject-button:hover {
+  background-color: #5b3ce6;
+}
+
+/* Subject Cards Styling */
+.subject-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.subject-card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  margin: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: center;
+}
+
+.subject-name {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.subject-code {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.attendance-button, .delete-button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.attendance-button {
+  background-color: #6a4ef8;
+  color: #ffffff;
+}
+
+.attendance-button:hover {
+  background-color: #5b3ce6;
+}
+
+.delete-button {
+  background-color: #e63946;
+  color: #ffffff;
+}
+
+.delete-button:hover {
+  background-color: #d43f3f;
+}
+
+/* No subjects message */
+.no-subjects-message {
+  font-size: 1.1rem;
+  color: #888;
+}
+
+/* Logout Section */
+.logout-section {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.logout-button {
+  padding: 12px 20px;
+  background-color: #ff6f61;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #e25a4e;
+}
